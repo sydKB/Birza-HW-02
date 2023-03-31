@@ -1,0 +1,110 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background: antiquewhite;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 36px;
+    color: antiquewhite;
+    margin-left: 20px;;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background: darkolivegreen;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+ul li {
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+h2 {
+    margin: 10px;
+    flex: 25%;
+    flex: left;
+    flex-wrap: wrap;
+    font-size: 24px;
+    color: darkolivegreen;
+}
+section div {
+    flex: 75%;
+    flex: right;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+section { /* play around with this!*/
+    border-style: solid;
+    border-radius: 50px; /*round*/
+    padding: 50px;
+    flex: 0 0 200px;
+} 
+
+div {
+    border-style: solid;
+    border-radius: 50px; /*round*/
+    padding: 50px;
+    flex: 0 0 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div img {
+    max-width: 30%;
+    height: auto;
+}
+
+#tree-header {
+    background-image: url(/Users/sydneybirza/bootcamp/Homework-02/forest.jpg);
+    flex: 1 1 100%;
+    height: 200px;
+    text-align: right;
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+        flex-direction: column;
+    }
+}
