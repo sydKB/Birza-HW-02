@@ -1,18 +1,11 @@
 * {
-    font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 body {
     background: antiquewhite;
+    font-family: sans-serif;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-h1 {
-    font-size: 36px;
-    color: antiquewhite;
-    margin-left: 20px;;
 }
 
 nav {
@@ -21,6 +14,12 @@ nav {
     align-items: center;
     padding: 1%;
     background: darkolivegreen;
+}
+
+h1 {
+    font-size: 36px;
+    color: antiquewhite;
+    margin-left: 20px;
 }
 
 ul {
@@ -34,47 +33,57 @@ ul li {
     margin-top: 0px;
 }
 
-li a {
+ul li a {
     color: whitesmoke;
     text-decoration: none;
     font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-h2 {
-    margin: 10px;
-    flex: 25%;
-    flex: left;
-    flex-wrap: wrap;
-    font-size: 24px;
-    color: darkolivegreen;
+#tree-header {
+    background-image: url(/Users/sydneybirza/bootcamp/Birza-HW-02/assets/forest.jpg);
+    height: 100px;
+    margin-bottom: 10px;
+    position: relative;
 }
-section div {
-    flex: 75%;
-    flex: right;
-    flex-wrap: wrap;
-    margin: 10px;
+
+#tree-header p {
+    text-align: right;
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    right: 0px;
+    color: antiquewhite;
 }
 
 section { /* play around with this!*/
     border-style: solid;
+    border-width: 5px;
     border-radius: 50px; /*round*/
-    padding: 50px;
-    flex: 0 0 200px;
+    padding: 10px;
+    width: 100%;
 } 
 
-div {
-    border-style: solid;
-    border-radius: 50px; /*round*/
-    padding: 50px;
-    flex: 0 0 200px;
+section h2 {
+    padding-left: 10px;
+    font-size: 26px;
+    color: darkolivegreen;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about img {
+    width: 20%;
+    min-width: 200px;
+    margin: 10px;
+}
+
+#about p {
+    width: 70%;
+    margin: 0px 10px;
 }
 
 
@@ -84,27 +93,60 @@ div {
 
 
 
-
-
-
-
-div img {
-    max-width: 30%;
-    height: auto;
+#projects a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    margin: 5px;
 }
 
-#tree-header {
-    background-image: url(/Users/sydneybirza/bootcamp/Homework-02/forest.jpg);
-    flex: 1 1 100%;
-    height: 200px;
-    text-align: right;
+#projects img:hover {
+    box-shadow:0 0 5px 5px darkolivegreen;
+}
+
+#projects p {
+    position: absolute;
+    top: 60%;
+    left: 0px;
     font-size: 30px;
+    padding: 30px;
     color: antiquewhite;
+    background-color: darkolivegreen;
+}
+
+.big-pic{   
+    width: 100%;
+}
+
+.lil-pic { 
+    width: 50%;
+}
+
+
+
+
+
+
+
+#contact {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+#contact a {
+    color: green;
+    font-size: 24px;
 }
 
 @media screen and (max-width: 768px) {
     main,
     nav {
+        flex-direction: column;
+        align-items: right;
+    }
+    #about, #contact {
         flex-direction: column;
     }
 }
