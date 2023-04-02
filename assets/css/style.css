@@ -40,7 +40,7 @@ ul li a {
 }
 
 #tree-header { /*This is the decorative banner under the header*/
-    background-image: url(/Users/sydneybirza/bootcamp/Birza-HW-02/assets/forest.jpg);
+    background-image: url("assets/forest.jpg");
     height: 100px;
     margin-bottom: 10px;
     position: relative;
