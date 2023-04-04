@@ -46,7 +46,7 @@ ul li a {
     position: relative;
 }
 
-#tree-header p { /*This is the styling for the welcom message on the banner*/
+#tree-header p { /*This is the styling for the welcome message on the banner*/
     text-align: right;
     font-size: 30px;
     position: absolute;
@@ -65,7 +65,7 @@ section {
     width: 100%;
 } 
 
-section h2 {
+section h2 { /* Section title styling */
     padding-left: 10px;
     font-size: 26px;
     color: darkolivegreen;
@@ -88,16 +88,22 @@ section h2 {
     margin: 0px 10px;
 }
 
+.small-pic-flex { /*Section for the smaller project images*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.image-grow { /*div section for anchored elements*/
+    align-items: stretch;
+    width: 50%;
+}
 
-
-
-
-/*-----I would like to put the .lil-pic images into columns-----*/
 #projects a { /*Anchored project elements adapt to screen size*/
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     position: relative;
     margin: 5px;
 }
@@ -117,18 +123,12 @@ section h2 {
 }
 
 .big-pic{   
-    width: 60%;
+    width: 100%;
 }
 
 .lil-pic { 
-    width: 30%;
+    width: 100%;
 }
-/*-----And fix the title cards. Will work with a tutor. Extra spaces will be deleted.-----*/
-
-
-
-
-
 
 #contact { /*Again, flex display to allow for adaptation*/
     display: flex;
@@ -139,7 +139,7 @@ section h2 {
 #contact a {
     color: green;
     font-size: 24px;
-    margin-right: 30px;
+    margin: 0px 30px;
 }
 
 @media screen and (max-width: 768px) { /*The following sections enter column formation at 768px screen size*/
