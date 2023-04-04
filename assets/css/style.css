@@ -40,7 +40,7 @@ ul li a {
 }
 
 #tree-header { /*This is the decorative banner under the header*/
-    background-image: url("assets/forest.jpg"); /*--------path to banner image must be fixed-------------------------*/
+    background-image: url("https://i.pinimg.com/736x/9f/42/d0/9f42d065f771bcc4832237d42b630767.jpg");
     height: 100px;
     margin-bottom: 10px;
     position: relative;
