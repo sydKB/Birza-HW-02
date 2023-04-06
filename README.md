@@ -2,8 +2,8 @@
 
 ## Completed Application
 ### https://sydkb.github.io/HW-02-Practice-Portfolio/
-![deployed part 1](./Assets/deployed-site-1.jpg)
-![deployed part 2](./Assets/deployed-site-2.jpg)
+![deployed part 1](assets/deployed-site-1.jpg)
+![deployed part 2](assets/deployed-site-2.jpg)
 
 
 
@@ -54,7 +54,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![portfolio demo](assets/02-advanced-css-homework-demo.gif)
 
 
 ## Grading Requirements
