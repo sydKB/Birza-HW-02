@@ -1,5 +1,12 @@
 # 02 Advanced CSS: Portfolio
 
+## Completed Application
+### https://sydkb.github.io/HW-02-Practice-Portfolio/
+![deployed application](./Assets/deployed-site-1.jpg)
+![deployed application](./Assets/deployed-site-2.jpg)
+
+
+
 ## Your Task
 
 Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
