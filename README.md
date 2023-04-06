@@ -2,8 +2,8 @@
 
 ## Completed Application
 ### https://sydkb.github.io/HW-02-Practice-Portfolio/
-![deployed application](./Assets/deployed-site-1.jpg)
-![deployed application](./Assets/deployed-site-2.jpg)
+![deployed part 1](./Assets/deployed-site-1.jpg)
+![deployed part 2](./Assets/deployed-site-2.jpg)
 
 
 
