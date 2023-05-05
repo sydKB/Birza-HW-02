@@ -1,7 +1,7 @@
 # 02 Advanced CSS: Portfolio
 
 ## Completed Application
-### https://sydkb.github.io/HW-02-Practice-Portfolio/
+### https://sydkb.github.io/Practice-Portfolio/
 ![deployed part 1](assets/deployed-site-1.jpg)
 ![deployed part 2](assets/deployed-site-2.jpg)
 
